@@ -7,7 +7,7 @@ import external # imports external.py
 import experiment as ex
 
 def my_first_experiment():
- exp = Experiment(lo_freq=5, rx_t=3.125)
+ exp = ex.Experiment(lo_freq=5,rx_t=3.125)
 
  tx0_times = np.array([50, 130])
  tx0_amps = np.array([0.5, 0])
